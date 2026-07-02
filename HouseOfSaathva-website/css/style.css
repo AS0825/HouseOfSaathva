@@ -828,14 +828,6 @@ section { padding: 90px 0; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
-<<<<<<< HEAD
-=======
-
-/* ===========================
-   Header Logo
-=========================== */
-
->>>>>>> 4bf33c6318396ee8cd5831388a068500fd2ad302
 .logo{
     display:flex;
     align-items:center;
@@ -848,11 +840,6 @@ section { padding: 90px 0; }
     display:block;
     transition:0.3s ease;
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 4bf33c6318396ee8cd5831388a068500fd2ad302
 .logo-img:hover{
     transform:scale(1.05);
 }
