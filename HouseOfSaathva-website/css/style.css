@@ -18,8 +18,8 @@
   --light-gray: #F0EEEB;
   --white: #FFFFFF;
 
-  --font-display: 'Cormorant Garamond', Georgia, serif;
-  --font-body: 'DM Sans', -apple-system, sans-serif;
+--font-display: 'Cormorant Garamond', Georgia, serif;
+--font-body: 'Jost', sans-serif;
 
   --max-width: 1200px;
   --transition: 0.3s ease;
@@ -345,7 +345,7 @@ h1, h2, h3, h4 {
 .page-hero-content h1 {
   color: var(--white);
   font-size: clamp(2.5rem, 6vw, 4rem);
-  font-style: italic;
+  font-style: normal;
 }
 .page-hero-content p {
   margin-top: 12px;
@@ -394,7 +394,7 @@ h1, h2, h3, h4 {
 }
 .home-hero-content .tagline {
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-size: clamp(1.1rem, 2.5vw, 1.6rem);
   color: var(--gold-light);
   margin-bottom: 36px;
@@ -444,7 +444,7 @@ section { padding: 90px 0; }
 .statement-text p {
   font-family: var(--font-display);
   font-size: 1.4rem;
-  font-style: italic;
+  font-style: normal;
   color: var(--dark);
   line-height: 1.5;
   margin-bottom: 18px;
@@ -535,7 +535,7 @@ section { padding: 90px 0; }
 }
 .quote-block p {
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-size: clamp(1.3rem, 3vw, 1.8rem);
   color: var(--dark);
   line-height: 1.5;
@@ -594,7 +594,7 @@ section { padding: 90px 0; }
   margin: 0 auto 14px;
 }
 .value-item h4 { font-size: 1.1rem; margin-bottom: 6px; color: var(--maroon); }
-.value-item p { font-size: 0.8rem; color: var(--gray); font-style: italic; }
+.value-item p { font-size: 0.8rem; color: var(--gray); font-style: normal; }
 
 /* ===================== INSTAGRAM GRID ===================== */
 .insta-grid {
@@ -613,7 +613,7 @@ section { padding: 90px 0; }
   text-align: center;
   padding: 70px 24px;
 }
-.cta-banner h2 { color: var(--white); margin-bottom: 24px; font-style: italic; }
+.cta-banner h2 { color: var(--white); margin-bottom: 24px; font-style: normal; }
 
 /* ===================== FILM EMBEDS ===================== */
 .film-featured {
@@ -643,7 +643,7 @@ section { padding: 90px 0; }
 .prose p { margin-bottom: 16px; font-size: 1.02rem; }
 .prose .lead {
   font-family: var(--font-display);
-  font-style: italic;
+  font-style: normal;
   font-size: 1.3rem;
   color: var(--maroon);
 }
@@ -779,7 +779,7 @@ section { padding: 90px 0; }
   color: var(--white);
   margin-bottom: 6px;
 }
-.footer-tagline { font-style: italic; color: var(--gold-light); margin-bottom: 14px; font-family: var(--font-display); }
+.footer-tagline { font-style: normal; color: var(--gold-light); margin-bottom: 14px; font-family: var(--font-display); }
 .footer-col p, .footer-col a { font-size: 0.88rem; color: #C9B8A8; display: block; margin-bottom: 8px; }
 .footer-col a:hover { color: var(--gold-light); }
 .footer-bottom {
@@ -828,6 +828,14 @@ section { padding: 90px 0; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+<<<<<<< HEAD
+=======
+
+/* ===========================
+   Header Logo
+=========================== */
+
+>>>>>>> 4bf33c6318396ee8cd5831388a068500fd2ad302
 .logo{
     display:flex;
     align-items:center;
@@ -841,7 +849,10 @@ section { padding: 90px 0; }
     transition:0.3s ease;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bf33c6318396ee8cd5831388a068500fd2ad302
 .logo-img:hover{
     transform:scale(1.05);
 }
