@@ -828,3 +828,20 @@ section { padding: 90px 0; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
+.logo{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.logo-img{
+    height:65px;
+    width:auto;
+    display:block;
+    transition:0.3s ease;
+}
+
+
+.logo-img:hover{
+    transform:scale(1.05);
+}
