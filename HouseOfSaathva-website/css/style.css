@@ -756,19 +756,20 @@ section { padding: 90px 0; }
 /* ===================== FOOTER ===================== */
 .site-footer {
   background: var(--dark);
-  background-image: url('../images/HOS_Red_Short_Logo.png');
+ /* background-image: url('../images/HOS_Red_Short_Logo.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-size: 350px 180px;
+  background-size: 350px 180px; */
   color: var(--cream);
   padding: 64px 0 24px;
 }
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1fr;
-  gap: 40px;
-  margin-bottom: 40px;
+.footer-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:80px;
+    max-width:900px;
+    margin:0 auto;
 }
 .footer-col h4 {
   color: var(--gold-light);
@@ -785,7 +786,7 @@ section { padding: 90px 0; }
   margin-bottom: 6px;
 }
 .footer-tagline { font-style: normal; color: var(--gold-light); margin-bottom: 14px; font-family: var(--font-display); }
-.footer-col p, .footer-col a { font-size: 0.88rem; color: #C9B8A8; display: block; margin-bottom: 8px; }
+.footer-col p, .footer-col a { font-size: 0.88rem; color: #F8F4E9; display: block; margin-bottom: 8px; }
 .footer-col a:hover { color: var(--gold-light); }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
@@ -793,6 +794,21 @@ section { padding: 90px 0; }
   text-align: center;
   font-size: 0.78rem;
   color: #8A7A6E;
+}
+/* Footer Brand Logo */
+
+.footer-brand-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:60px 0;
+}
+
+.footer-brand-image img{
+    width:420px;
+    max-width:90%;
+    height:auto;
+    opacity:0.95;
 }
 
 /* ===================== UTILITY ===================== */
@@ -847,4 +863,21 @@ section { padding: 90px 0; }
 }
 .logo-img:hover{
     transform:scale(1.05);
+}
+
+.footer-nav-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px 10px;
+    margin-top:18px;
+}
+
+.footer-nav-grid a{
+    color:var(--cream);
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-nav-grid a:hover{
+    color:var(--gold);
 }
