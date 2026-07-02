@@ -756,6 +756,11 @@ section { padding: 90px 0; }
 /* ===================== FOOTER ===================== */
 .site-footer {
   background: var(--dark);
+  background-image: url('../images/HOS_Red_Short_Logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: 350px 180px;
   color: var(--cream);
   padding: 64px 0 24px;
 }
